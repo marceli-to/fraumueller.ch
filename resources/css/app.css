@@ -1,0 +1,17 @@
+@import "typo/webfonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[url(../images/background.jpg)] bg-cover bg-center bg-no-repeat
+}
+
+main {
+  @apply flex-1;
+}
+
+h1, h2 {
+
+}
