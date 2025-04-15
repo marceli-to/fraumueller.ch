@@ -21,4 +21,12 @@
 @vite('resources/css/app.css')
 @livewireStyles
 </head>
-<body class="antialiased font-chlorite-light text-white flex min-h-full flex-col">
+<body class="antialiased font-chlorite-light text-white flex min-h-full flex-col relative">
+  <div class="absolute z-50 right-15 xl:right-20 top-15 xl:top-20 w-auto h-auto flex items-center gap-x-15 xl:gap-x-20">
+    <a href="" class="text-white size-26 xl:size-30 opacity-100 hover:opacity-70 transition-opacity">
+      <x-icons.instagram class="w-full h-auto" />
+    </a>
+    <a href="" class="text-white size-24 xl:size-28 opacity-100 hover:opacity-70 transition-opacity">
+      <x-icons.linkedin class="w-full h-auto" />
+    </a>
+  </div>
