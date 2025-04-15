@@ -9,7 +9,7 @@
   @else
     <p class="mb-10 md:mb-20">Melde dich hier für den Newsletter an:</p>
 
-    <div class="flex flex-col gap-y-10 lg:gap-y-20 items-center w-full">
+    <div class="flex flex-col gap-y-10 xl:gap-y-20 items-center w-full">
       @error('email')
         <div class="text-red-300">
           {{ $message }}
