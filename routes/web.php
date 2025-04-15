@@ -1,5 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'pages.home')->name('page.home');
+
+Route::get('/newsletter/verify', function (Request $request) {
+  if (! $request->hasValidSignature()) {
+    abort(401, 'Ungültiger oder abgelaufener Bestätigungslink.');
+  }
+  $email = $request->query('email');
+  \App\Models\Subscriber::updateOrCreate(
+    ['email' => $email],
+    ['verified_at' => now()]
+  );
+  return view('pages.home'); // Optional success view
+})->name('newsletter.verify');
 
 
 

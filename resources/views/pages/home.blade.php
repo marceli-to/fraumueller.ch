@@ -9,10 +9,7 @@
     <h2 class="font-sangbleu-italic italic text-sm sm:text-md xl:text-lg 2xl:text-xl">
       Das Magazin zur Fussball-EM 2025<br>Comming soon.
     </h2>
-    <div class="mt-40 lg:mt-70 xl:mt-90 text-sm sm:text-md">
-      <p>Melde dich hier für den Newsletter an:</p>
-      @livewire('subscriber-signup')
-    </div> 
+    @livewire('subscriber-signup')
   </div>
 </div>
 @endsection

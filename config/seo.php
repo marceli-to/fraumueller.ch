@@ -11,7 +11,7 @@ return [
   |
   */
 
-  'title' => 'Alterswohnen Luppmenpark',
+  'title' => '',
 
   /*
   |--------------------------------------------------------------------------
@@ -22,6 +22,6 @@ return [
   |
   */
 
-  'description' => 'Entdecken Sie idyllisches Wohnen im denkmalgeschützten Luppmenpark mit 39 barrierefreien Wohneinheiten. Die Überbauung im Weilerstil bietet einen gemeinschaftlichen Lindenhof, vielfältige Wohnungsgrößen und integrierte Spitex-Dienste.',   
+  'description' => '',   
 
 ];

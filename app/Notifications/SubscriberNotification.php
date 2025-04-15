@@ -5,7 +5,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
 
-class ContactUserEmail extends Notification
+class SubscriberNotification extends Notification
 {
   use Queueable;
 
@@ -14,9 +14,9 @@ class ContactUserEmail extends Notification
    *
    * @return void
    */
-  public function __construct($data)
+  public function __construct($email)
   {
-    $this->data = $data;
+    $this->email = $email;
   }
 
   /**
@@ -38,11 +38,21 @@ class ContactUserEmail extends Notification
    */
   public function toMail($notifiable)
   {
+    // Signed URL valid for 60 minutes
+    $verificationUrl = \URL::temporarySignedRoute(
+      'newsletter.verify',
+      now()->addMinutes(60),
+      ['email' => $this->email]
+    );
+
     return (new MailMessage)
       ->from(env('MAIL_FROM_ADDRESS'))
       ->replyTo(env('MAIL_TO'))
-      ->subject('luppmenpark.ch – Anfrage')
-      ->markdown('mail.contact-user', ['data' => $this->data]);
+      ->subject('Anmeldung Newsletter Frau Müller')
+      ->markdown('mail.subscriber-notification', [
+        'email' => $this->email,
+        'verificationUrl' => $verificationUrl,
+      ]);
   }
 
   /**

@@ -4,7 +4,7 @@ use Livewire\Attributes\Rule;
 use Livewire\Component;
 use App\Models\Subscriber;
 use Illuminate\Support\Facades\Notification;
-// use App\Notifications\NewsletterConfirmation; // Uncomment if you send confirmation
+use App\Notifications\SubscriberNotification;
 
 class SubscriberSignup extends Component
 {
@@ -15,13 +15,13 @@ class SubscriberSignup extends Component
   {
     $this->validate();
 
-    // Store the subscriber email
     Subscriber::create([
       'email' => $this->email,
     ]);
 
-    // Optional: Send confirmation email
-    // Notification::route('mail', $this->email)->notify(new NewsletterConfirmation());
+    Notification::route('mail', $this->email)->notify(new SubscriberNotification([
+      'email' => $this->email,
+    ]));
 
     session()->flash('status', 'You have been subscribed to the newsletter!');
     $this->reset('email');

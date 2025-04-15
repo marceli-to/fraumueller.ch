@@ -31,7 +31,7 @@
   }
 
   .header {
-    padding: 30px !important;
+    padding: 15px !important;
   }
 
   .content-cell {
