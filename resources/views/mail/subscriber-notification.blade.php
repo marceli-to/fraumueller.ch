@@ -1,9 +1,9 @@
 <x-mail::message>
   <div class="text-base pb-large">
-    Hallo 👋
+    Hallo
   </div>
   <div class="text-base pb-large">
-    Vielen Dank für dein Interesse an unserem Magazin. Um die Anmeldung abzuschliesse, klick bitte auf untenstehenden Button:
+    Vielen Dank für dein Interesse an unserem Magazin. Um die Anmeldung abzuschliessen, klick bitte auf den nachfolgenden Button:
   </div>
   <div class="text-base pb-large">
     <a href="{{ $verificationUrl}}" style="display: inline-block; padding: 5px 10px; font-weight:bold; text-center; text-decoration: none !important; border: 1px solid #000">
