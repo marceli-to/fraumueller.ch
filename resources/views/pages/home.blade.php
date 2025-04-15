@@ -6,7 +6,7 @@
     <h1 class="font-chlorite-medium font-medium text-2xl sm:text-3xl xl:text-4xl 2xl:text-5xl leading-none mb-5">
       Frau Müller
     </h1>
-    <h2 class="font-sangbleu-italic italic text-sm sm:text-md xl:text-lg 2xl:text-xl">
+    <h2 class="font-sangbleu-italic italic uppercase text-sm sm:text-md xl:text-lg 2xl:text-xl">
       Das Magazin zur Fussball-EM 2025<br>Coming soon.
     </h2>
     @livewire('subscriber-signup')
