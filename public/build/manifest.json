@@ -1,8 +1,48 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-6ef2a102.css",
+    "file": "assets/app-d61924a9.css",
     "isEntry": true,
     "src": "resources/css/app.css"
+  },
+  "resources/fonts/Chlorite-Bold.woff": {
+    "file": "assets/Chlorite-Bold-84baba75.woff",
+    "src": "resources/fonts/Chlorite-Bold.woff"
+  },
+  "resources/fonts/Chlorite-Bold.woff2": {
+    "file": "assets/Chlorite-Bold-874514f6.woff2",
+    "src": "resources/fonts/Chlorite-Bold.woff2"
+  },
+  "resources/fonts/Chlorite-Light.woff": {
+    "file": "assets/Chlorite-Light-f5804449.woff",
+    "src": "resources/fonts/Chlorite-Light.woff"
+  },
+  "resources/fonts/Chlorite-Light.woff2": {
+    "file": "assets/Chlorite-Light-a4a5c9cb.woff2",
+    "src": "resources/fonts/Chlorite-Light.woff2"
+  },
+  "resources/fonts/Chlorite-Medium.woff": {
+    "file": "assets/Chlorite-Medium-43e48b57.woff",
+    "src": "resources/fonts/Chlorite-Medium.woff"
+  },
+  "resources/fonts/Chlorite-Medium.woff2": {
+    "file": "assets/Chlorite-Medium-78b48aca.woff2",
+    "src": "resources/fonts/Chlorite-Medium.woff2"
+  },
+  "resources/fonts/Chlorite-Regular.woff": {
+    "file": "assets/Chlorite-Regular-cd5ec753.woff",
+    "src": "resources/fonts/Chlorite-Regular.woff"
+  },
+  "resources/fonts/Chlorite-Regular.woff2": {
+    "file": "assets/Chlorite-Regular-99832604.woff2",
+    "src": "resources/fonts/Chlorite-Regular.woff2"
+  },
+  "resources/fonts/SangBleuKingdom-MediumItalic.woff": {
+    "file": "assets/SangBleuKingdom-MediumItalic-0164ad23.woff",
+    "src": "resources/fonts/SangBleuKingdom-MediumItalic.woff"
+  },
+  "resources/fonts/SangBleuKingdom-MediumItalic.woff2": {
+    "file": "assets/SangBleuKingdom-MediumItalic-45450773.woff2",
+    "src": "resources/fonts/SangBleuKingdom-MediumItalic.woff2"
   },
   "resources/icons/chevron-down.svg": {
     "file": "assets/chevron-down-c7591a57.svg",

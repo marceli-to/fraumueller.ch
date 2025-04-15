@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Chlorite-Bold';
-  src: url('../fonts/Chlorite-Bold.woff2') format('woff2'), url('../fonts/Chlorite-Bold.woff') format('woff');
+  src: url('fonts/Chlorite-Bold.woff2') format('woff2'), url('fonts/Chlorite-Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: 'Chlorite-Medium';
-  src: url('../fonts/Chlorite-Medium.woff2') format('woff2'), url('../fonts/Chlorite-Medium.woff') format('woff');
+  src: url('fonts/Chlorite-Medium.woff2') format('woff2'), url('fonts/Chlorite-Medium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: 'Chlorite-Regular';
-  src: url('../fonts/Chlorite-Regular.woff2') format('woff2'), url('../fonts/Chlorite-Regular.woff') format('woff');
+  src: url('fonts/Chlorite-Regular.woff2') format('woff2'), url('fonts/Chlorite-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -29,7 +29,7 @@
 
 @font-face {
   font-family: 'Chlorite-Light';
-  src: url('../fonts/Chlorite-Light.woff2') format('woff2'), url('../fonts/Chlorite-Light.woff') format('woff');
+  src: url('fonts/Chlorite-Light.woff2') format('woff2'), url('fonts/Chlorite-Light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -37,7 +37,7 @@
 
 @font-face {
   font-family: 'SangBleuKingdom-MediumItalic';
-  src: url('../fonts/SangBleuKingdom-MediumItalic.woff2') format('woff2'), url('../fonts/SangBleuKingdom-MediumItalic.woff') format('woff');
+  src: url('fonts/SangBleuKingdom-MediumItalic.woff2') format('woff2'), url('fonts/SangBleuKingdom-MediumItalic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
