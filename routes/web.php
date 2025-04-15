@@ -22,7 +22,7 @@ Route::get('/newsletter/verify', function (Request $request) {
   $email = $request->query('email');
   \App\Models\Subscriber::updateOrCreate(
     ['email' => $email],
-    ['verified_at' => now()]
+    ['confirmed_at' => now()]
   );
   return view('pages.home'); // Optional success view
 })->name('newsletter.verify');
