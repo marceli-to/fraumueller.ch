@@ -19,10 +19,6 @@ export default {
         'xs': '500px',
       },
 
-      colors: {
-
-      },
-
       fontFamily: {
         'chlorite-bold': ['Chlorite-Bold', ...defaultTheme.fontFamily.sans],
         'chlorite-medium': ['Chlorite-Medium', ...defaultTheme.fontFamily.sans],
@@ -32,16 +28,16 @@ export default {
       },
 
       fontSize: {
-
-        'sm': '16px',
-        'md': '28px',
-        'lg': '40px',
-        'xl': '48px',
-
+        'xs': '1rem',       // 16px
+        'sm': '1.125rem',    // 18px
+        'base': '1.25rem',  // 22px
+        'md': '1.75rem',     // 28px
+        'lg': '2.5rem',      // 40px
+        'xl': '3rem',        // 48px
         '2xl': '4.375rem',   // 70px
-        '3xl': '7.5rem',    // 120px
-        '4xl': '10rem',     // 160px
-        '5xl': '12.5rem',   // 200px
+        '3xl': '7.5rem',     // 120px
+        '4xl': '10rem',      // 160px
+        '5xl': '12.5rem',    // 200px
       },
 
     },

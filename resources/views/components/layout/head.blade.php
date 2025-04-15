@@ -22,4 +22,4 @@
 @vite('resources/css/app.css')
 @livewireStyles
 </head>
-<body class="antialiased text-white flex min-h-full flex-col">
+<body class="antialiased font-chlorite-light text-white flex min-h-full flex-col">
