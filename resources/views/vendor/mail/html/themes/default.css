@@ -10,7 +10,7 @@ body *:not(html):not(style):not(br):not(tr):not(code) {
 body {
   -webkit-text-size-adjust: none;
   background-color: #ffffff;
-  color: #021e24;
+  color: #000000;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -26,7 +26,7 @@ blockquote {
 }
 
 a {
-  color: #021e24;
+  color: #000000;
 }
 
 a img {
@@ -36,7 +36,7 @@ a img {
 /* Typography */
 
 h1 {
-  color: #021e24;
+  color: #000000;
   font-size: 16px;
   font-weight: 500;
   margin-top: 0;
@@ -84,7 +84,7 @@ strong, b {
 
 .header {
   background-color: #ffffff;
-  color: #021e24;
+  color: #000000;
   padding: 40px 0 20px 40px;
   text-align: left;
 }
@@ -158,7 +158,7 @@ table.header__content {
 }
 
 .table td {
-  color: #021e24;
+  color: #000000;
   font-size: 14px;
   line-height: 1.2;
   margin: 0;
