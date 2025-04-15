@@ -7,7 +7,7 @@
   </div>
   <div class="text-base pb-large">
     <a href="{{ $verificationUrl}}" style="display: inline-block; padding: 5px 10px; font-weight:bold; text-center; text-decoration: none !important; border: 1px solid #000">
-      E-Mail-Adresse bestätigen
+      E-Mail bestätigen
     </a>
   </div>
   <div class="text-base">

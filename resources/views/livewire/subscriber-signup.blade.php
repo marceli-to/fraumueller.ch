@@ -17,7 +17,7 @@
       @enderror
 
       <div class="relative w-full">
-        <x-form.input name="email" type="email" placeholder="E-Mail-Adresse" isWire="true" />
+        <x-form.input name="email" type="email" placeholder="E-Mail" isWire="true" />
       </div>
 
       <x-form.button>
