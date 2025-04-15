@@ -7,7 +7,7 @@
       Frau Müller
     </h1>
     <h2 class="font-sangbleu-italic italic text-sm sm:text-md xl:text-lg 2xl:text-xl">
-      Das Magazin zur Fussball-EM 2025<br>Comming soon.
+      Das Magazin zur Fussball-EM 2025<br>Coming soon.
     </h2>
     @livewire('subscriber-signup')
   </div>
