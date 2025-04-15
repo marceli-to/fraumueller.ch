@@ -24,7 +24,7 @@
         <div wire:loading>
           <x-form.spinner class="mr-12" />
         </div>
-        Abonnieren
+        Anmelden
       </x-form.button>
     </div>
   @endif
