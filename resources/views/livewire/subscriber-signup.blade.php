@@ -4,7 +4,7 @@
 
   @if (session()->has('status'))
     <div class="leading-[1.2]">
-      Vielen Dank, wir haben Deine Anmeldung erhalten. Du erhälst bald eine E-Mail mit einem Bestätigungslink.
+      Vielen Dank, wir haben Deine Anmeldung erhalten. Du erhältst bald eine E-Mail mit einem Bestätigungslink.
     </div>
   @else
     <p class="mb-10 md:mb-20">Melde dich hier für den Newsletter an:</p>
