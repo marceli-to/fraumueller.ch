@@ -7,7 +7,7 @@
 <meta name="description" content="Das Magazin für die Fussball-EM 2025">
 <meta property="og:title" content="Frau Müller | Das Magazin für die Fussball-EM 2025">
 <meta property="og:description" content="Das Magazin für die Fussball-EM 2025">
-<meta property="og:url" content="{{ url()->current()}}/fraumueller.jpg ">
+<meta property="og:url" content="{{ url()->current()}}/media/opengraph.jpg">
 <meta property="og:site_name" content="Frau Müller | Das Magazin für die Fussball-EM 2025">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
