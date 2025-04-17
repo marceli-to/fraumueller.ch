@@ -16,9 +16,9 @@ use Illuminate\Http\Request;
 Route::view('/', 'pages.home')->name('page.home');
 
 Route::get('/newsletter/verify', function (Request $request) {
-  if (! $request->hasValidSignature()) {
-    abort(401, 'Ungültiger oder abgelaufener Bestätigungslink.');
-  }
+  // if (! $request->hasValidSignature()) {
+  //   abort(401, 'Ungültiger oder abgelaufener Bestätigungslink.');
+  // }
   $email = $request->query('email');
   \App\Models\Subscriber::updateOrCreate(
     ['email' => $email],
