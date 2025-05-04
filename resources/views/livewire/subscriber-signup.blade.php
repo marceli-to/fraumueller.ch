@@ -1,5 +1,5 @@
 
-<form wire:submit="save" class="mt-40 lg:mt-50 xl:mt-60 text-sm sm:text-md p-20 md:max-w-lg">
+<form wire:submit="save" class="mt-10 xl:mt-20 text-sm sm:text-md p-20 md:max-w-lg">
   <x-honeypot />
 
   @if (session()->has('status'))
