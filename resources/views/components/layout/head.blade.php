@@ -36,4 +36,11 @@
       target="_blank">
       <x-icons.linkedin class="w-full h-auto" />
     </a>
+    <a 
+      href="mailto:mail@fraumueller.ch" 
+      title="Schicke uns eine E-Mail"
+      class="text-white size-28 xl:size-32 opacity-100 hover:opacity-70 transition-opacity"
+      target="_blank">
+      <x-icons.mail class="w-full h-auto" />
+    </a>
   </div>
